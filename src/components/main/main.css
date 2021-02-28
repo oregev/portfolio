@@ -1,0 +1,73 @@
+.mainContainer {
+	background-color: var(--appBgCol);
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.welcome {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--welcomBgCol);
+	opacity: 0;
+	animation: openingAnim 5s forwards;
+	margin-bottom: 30px;
+}
+.headlineContainer {
+	padding: 5px;
+	text-align: center;
+}
+.headlineContainer h1 {
+	font-weight: 500;
+	font-size: 3rem;
+	color: var(--textCol);
+}
+.headlineContainer h2 {
+	letter-spacing: 4px;
+	border-top: 1px solid var(--textCol);
+	padding-top: 5px;
+	font-weight: 200;
+	font-size: 1rem;
+	color: var(--textCol);
+}
+.openingContainer {
+	width: 50%;
+	text-align: center;
+	color: var(--textCol);
+	opacity: 0;
+	animation: textAnim 1.5s 1s forwards;
+}
+.openingContainer p {
+	font-weight: 500;
+	font-size: 16px;
+}
+.canvasContainer {
+	width: 100%;
+	height: 100px;
+	opacity: 0;
+	animation: canvasAnim 3s 2s forwards;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@keyframes openingAnim {
+	100% {
+		opacity: 1;
+		transform: translateY(20px);
+	}
+}
+@keyframes textAnim {
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes canvasAnim {
+	100% {
+		opacity: 1;
+	}
+}

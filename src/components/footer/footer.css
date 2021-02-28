@@ -1,0 +1,11 @@
+.footerContainer {
+	height: 10%;
+	min-height: 50px;
+	font-size: 0.8rem;
+	background-color: var(--footBgCol);
+	opacity: 0.95;
+	color: var(--textCol);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}

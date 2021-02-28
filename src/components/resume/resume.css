@@ -1,0 +1,63 @@
+.resumeContainer {
+	background-color: var(--appBgCol);
+	height: 80%;
+}
+.detailsContainer {
+	width: 90%;
+	height: 95%;
+	background-color: var(--contactBgCol);
+	opacity: 0.95;
+	color: var(--textCol);
+	padding: 20px 30px;
+	overflow-y: auto;
+}
+.detailsContainer article {
+	opacity: 0;
+	animation: textAnim 3s forwards;
+}
+.detailsContainer article hr {
+	margin: 50px auto;
+	border-color: rgb(100, 100, 100, 0.3);
+	width: 80%;
+}
+
+.detailsContainer h4 {
+	font-size: 16px;
+	display: inline;
+}
+.detailsContainer p {
+	font-size: 14px;
+}
+.detailsContainer ul {
+	padding-left: 15px;
+}
+.detailsContainer li {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 800px) {
+	.detailsContainer {
+		width: 70%;
+	}
+	.detailsContainer article {
+		/* height: 250px; */
+		opacity: 0;
+		animation: textAnim 5s forwards;
+	}
+	.detailsContainer h4 {
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.detailsContainer p {
+		font-size: 16px;
+	}
+	.detailsContainer li {
+		font-size: 14px;
+	}
+}
+
+@keyframes textAnim {
+	100% {
+		opacity: 1;
+	}
+}

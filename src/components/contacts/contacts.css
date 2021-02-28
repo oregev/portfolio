@@ -1,0 +1,111 @@
+.contactsContainer {
+	background-color: var(--appBgCol);
+	height: 80%;
+}
+.linksContainer {
+	width: 90%;
+	height: 200px;
+	background-color: var(--contactBgCol);
+	opacity: 0.95;
+	padding: 25px 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.linksContainer h3 {
+	color: var(--textCol);
+	margin-bottom: 20px;
+	animation: shake 5s 5s forwards infinite;
+	align-self: flex-start;
+	margin-left: 30px;
+}
+.iconsContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.iconsContainer a {
+	display: block;
+	text-align: center;
+	width: 100px;
+	color: var(--textCol);
+	text-decoration: none;
+}
+.linksContainer svg {
+	width: 3em;
+	height: 3em;
+	margin-bottom: 5px;
+}
+.optionContaine:hover {
+	transform: translateY(-20px);
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 500px) {
+	.linksContainer svg {
+		width: 2em;
+		height: 2em;
+	}
+	.iconsContainer {
+		width: 90%;
+		height: 80%;
+		flex-direction: column;
+	}
+	.iconsContainer a {
+		width: 65px;
+		font-size: 1rem;
+	}
+	.linksContainer {
+		height: 80%;
+	}
+}
+
+.contactIcon,
+.contactText {
+	opacity: 0;
+}
+
+.contactIcon {
+	transform: translate(-200px);
+	animation: anim 1s forwards ease-out;
+}
+.contactText {
+	transform: translate(100px);
+	animation: anim 1s forwards ease-out;
+}
+
+@keyframes anim {
+	100% {
+		opacity: 1;
+		transform: translate(0vw);
+	}
+}
+@keyframes headAnim {
+	100% {
+		opacity: 1;
+		transform: translate(0vh);
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	5% {
+		transform: rotate(-3deg);
+	}
+	10% {
+		transform: rotate(3deg);
+	}
+	15% {
+		transform: rotate(-3deg);
+	}
+	20% {
+		transform: rotate(0deg);
+	}
+	/* 100% {
+		transform: rotate(0deg);
+	} */
+}

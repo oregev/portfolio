@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.lightMode {
+	--headBgCol: white;
+	--headSdowCol: rgb(121, 121, 121);
+	--welcomBgCol: white;
+	--welcomShadowCol: rgb(121, 120, 120);
+	--proBgCol: white;
+	--proShadowCol: rgb(122, 122, 122);
+	--proBoxBgCol: rgb(210, 210, 210);
+	--proBoxShadowCol: rgb(119, 119, 119);
+	--contactBgCol: white;
+	--contactShadowCol: rgb(122, 122, 122);
+	--footBgCol: white;
+	--appBgCol: rgb(210, 210, 210);
+	--textCol: rgb(46, 46, 46);
+	--svgCol: rgb(46, 46, 46);
+	--InfoBtn: white;
+	--brightness: 0.7;
+}
+.darkMode {
+	--headBgCol: rgb(30, 30, 30);
+	--headSdowCol: rgb(0, 0, 0);
+	--welcomBgCol: rgb(30, 30, 30);
+	--welcomShadowCol: rgb(0, 0, 0);
+	--proBgCol: rgb(30, 30, 30);
+	--proShadowCol: rgb(0, 0, 0);
+	--proBoxBgCol: rgb(75, 75, 75);
+	--proBoxShadowCol: rgb(0, 0, 0);
+	--contactBgCol: rgb(30, 30, 30);
+	--contactShadowCol: rgb(0, 0, 0);
+	--footBgCol: rgb(30, 30, 30);
+	--appBgCol: rgb(75, 75, 75);
+	--textCol: rgb(201, 201, 201);
+	--svgCol: rgb(212, 212, 212);
+	--InfoBtn: rgb(209, 209, 209);
+	--brightness: 0.4;
+}
+.centerIt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.App {
+	height: 100vh;
+}

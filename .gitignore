@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# pages
+/src/components/projects/chase
+/src/components/projects/smarthome
+/src/components/projects/sudoku
+/src/components/projects/weather
+
+# assets
+/src/components/projects/images
+/src/components/projects/svg
