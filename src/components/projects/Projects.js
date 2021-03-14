@@ -12,16 +12,22 @@ const images = paths.map((path) => reqImgaes(path));
 export const Projects = (props) => {
 	const createThumbnails = () =>
 		projectsInfo.map((project, i) => {
-			const imgUrl = images.filter((img) => img.default.includes(project.link))[0].default;
+			const imgUrl = images.filter((img) => img.includes(project.link))[0];
 			return (
 				<section className="projects--projectContainer centerIt" key={project.id}>
 					<div className="projects--projectImgContainer">
 						<img src={imgUrl} alt={project.name}></img>
 					</div>
 					<article className="projects--projectInfo">
-						<Link to={`/projects/${project.link}`} className="project--link project--title">
-							{project.name}
-						</Link>
+						{project.internal ? (
+							<Link to={`/projects/${project.link}`} className="project--link project--title">
+								{project.name}
+							</Link>
+						) : (
+							<a href="https://jovial-goodall-16b380.netlify.app/" target="blank">
+								<span className="project--link project--title">{project.name}</span>
+							</a>
+						)}
 						<p>{project.description}</p>
 					</article>
 				</section>

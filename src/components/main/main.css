@@ -7,7 +7,7 @@
 	justify-content: space-around;
 }
 .welcome {
-	width: 100%;
+	width: 30%;
 	height: 150px;
 	display: flex;
 	flex-direction: column;
@@ -15,7 +15,7 @@
 	justify-content: center;
 	background-color: var(--welcomBgCol);
 	opacity: 0;
-	animation: openingAnim 5s forwards;
+	animation: openingAnim 2s forwards;
 	margin-bottom: 30px;
 }
 .headlineContainer {
@@ -50,7 +50,7 @@
 	width: 100%;
 	height: 100px;
 	opacity: 0;
-	animation: canvasAnim 3s 2s forwards;
+	animation: canvasAnim 2s 2s forwards;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -58,7 +58,7 @@
 @keyframes openingAnim {
 	100% {
 		opacity: 1;
-		transform: translateY(20px);
+		width: 100%;
 	}
 }
 @keyframes textAnim {
@@ -69,5 +69,14 @@
 @keyframes canvasAnim {
 	100% {
 		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.openingContainer {
+		width: 90%;
+	}
+	.headlineContainer h1 {
+		font-size: 2rem;
 	}
 }

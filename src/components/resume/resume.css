@@ -1,19 +1,22 @@
 .resumeContainer {
 	background-color: var(--appBgCol);
 	height: 80%;
+
 }
 .detailsContainer {
 	width: 90%;
-	height: 95%;
+	height: 90%;
 	background-color: var(--contactBgCol);
 	opacity: 0.95;
 	color: var(--textCol);
 	padding: 20px 30px;
 	overflow-y: auto;
+	border: 1px solid rgb(90, 90, 90);
+	border-radius: 5px;
 }
 .detailsContainer article {
 	opacity: 0;
-	animation: textAnim 3s forwards;
+	animation: textAnim 1s forwards;
 }
 .detailsContainer article hr {
 	margin: 50px auto;

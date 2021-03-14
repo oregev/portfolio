@@ -33,12 +33,19 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 }
+.projects--projectInfo > a {
+	text-decoration: none;
+}
 .project--link {
 	color: var(--textCol);
 	font-weight: 900;
 	text-decoration: none;
 	color: white;
 	z-index: 1;
+}
+.projects--projectInfo > a:hover,
+.project--link:hover {
+	color: rgb(160, 160, 160);
 }
 .project--title {
 	font-size: 2rem;

@@ -12,6 +12,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 }
 .linksContainer h3 {
 	color: var(--textCol);
@@ -45,7 +46,7 @@
 
 @media screen and (max-width: 500px) {
 	.linksContainer svg {
-		width: 2em;
+		width: 50%;
 		height: 2em;
 	}
 	.iconsContainer {
@@ -59,6 +60,7 @@
 	}
 	.linksContainer {
 		height: 80%;
+		width: 60%;
 	}
 }
 
@@ -105,7 +107,4 @@
 	20% {
 		transform: rotate(0deg);
 	}
-	/* 100% {
-		transform: rotate(0deg);
-	} */
 }

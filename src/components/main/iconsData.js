@@ -10,8 +10,8 @@ const iconsData = icons.map((iconPath, index) => {
 	return {
 		x: START_X,
 		y: START_Y,
-		//url: iconPath,
-		url: iconPath.default,
+		url: iconPath,
+		//url: iconPath.default,
 	};
 });
 
