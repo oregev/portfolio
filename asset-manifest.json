@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8359ee52.chunk.css",
+    "main.js": "/portfolio/static/js/main.4c234885.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4c234885.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.aae82d85.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.aae82d85.js.map",
+    "static/js/2.0cc302fe.chunk.js": "/portfolio/static/js/2.0cc302fe.chunk.js",
+    "static/js/2.0cc302fe.chunk.js.map": "/portfolio/static/js/2.0cc302fe.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.8359ee52.chunk.css.map": "/portfolio/static/css/main.8359ee52.chunk.css.map",
+    "static/js/2.0cc302fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0cc302fe.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.98e975a8.svg",
+    "static/media/chase3.jpg": "/portfolio/static/media/chase3.b78d7ae5.jpg",
+    "static/media/css.svg": "/portfolio/static/media/css.bab95495.svg",
+    "static/media/eq.jpg": "/portfolio/static/media/eq.4f74d543.jpg",
+    "static/media/filledCol.a5930335.png": "/portfolio/static/media/filledCol.a5930335.png",
+    "static/media/filledReg.6c8cf9cf.png": "/portfolio/static/media/filledReg.6c8cf9cf.png",
+    "static/media/filledRow.b3cc4e10.png": "/portfolio/static/media/filledRow.b3cc4e10.png",
+    "static/media/git.svg": "/portfolio/static/media/git.730dff67.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.1ca8717a.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.9ab6ce31.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.92787681.svg",
+    "static/media/nodejs.svg": "/portfolio/static/media/nodejs.36303273.svg",
+    "static/media/notFilled.b19ae2ab.png": "/portfolio/static/media/notFilled.b19ae2ab.png",
+    "static/media/sudoku.css": "/portfolio/static/media/notre-dame-blur.e421c231.jpg",
+    "static/media/react.svg": "/portfolio/static/media/react.c34f4378.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.1fa47118.svg",
+    "static/media/smarthome.jpg": "/portfolio/static/media/smarthome.9f3261c1.jpg",
+    "static/media/sudoku.jpg": "/portfolio/static/media/sudoku.bcd1a08c.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.062083d0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aae82d85.js",
+    "static/js/2.0cc302fe.chunk.js",
+    "static/css/main.8359ee52.chunk.css",
+    "static/js/main.4c234885.chunk.js"
+  ]
+}
